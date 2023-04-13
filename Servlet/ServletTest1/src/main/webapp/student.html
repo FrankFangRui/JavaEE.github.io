@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 相对路径写法 ,基准目录就是 html 所在的目录，就是 java105-2,是网络路径
+    不是本地路径-->
+    <form action="getParameter" method="post">
+        <input type="text" name="studentId">
+        <input type="text" name="studentName">
+        <input type="submit" value="提交">
+    </form>
+    <!-- 绝对路径写法 ，从根目录开始，带上ContextPath,ServletPath-->
+    <form action="/java105-2/getParameter"></form> 
+</body>
+</html>

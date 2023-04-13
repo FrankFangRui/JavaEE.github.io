@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class = 'nav'>
+        <img src="img/logo2.jpg" alt="">
+        <span class="title">我的博客系统</span>
+        <div class="spacer"></div>
+        <a href="blog_list.html">主页</a>
+        <a href="blog_edit.html">写博客</a>
+        <a href="#">注销</a>
+    </div>
+    <div class="login-container">
+        <form action="login" method="post">
+<!--            登录对话框-->
+            <div class="dialog">
+                <h3>登录</h3>
+                <div class="row">
+                    <span>用户名</span>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="row">
+                    <span>密码</span>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="row">
+                   <!-- <button id="login-btn">登录</button>-->
+                    <input id="login-btn" value="登录" type="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

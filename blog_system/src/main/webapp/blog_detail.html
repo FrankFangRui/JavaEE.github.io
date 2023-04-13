@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客详情</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/blog_list.css">
+    <link rel="stylesheet" href="editor.md/css/editormd.min.css"/>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="editor.md/lib/marked.min.js"></script>
+    <script src="editor.md/lib/prettify.min.js"></script>
+    <script src="editor.md/editormd.js"></script>
+</head>
+<body>
+    <div class = 'nav'>
+        <img src="img/logo2.jpg" alt="">
+        <span class="title">我的博客系统</span>
+        <div class="spacer"></div>
+        <a href="blog_list.html">主页</a>
+        <a href="blog_edit.html">写博客</a>
+<!--        <a href="#">注销</a> 把 # 替换成 logout 路径-->
+        <a href="logout">注销</a>
+        <a href="blog_delete" id="delete-btn">删除</a>
+    </div>
+    <div class="container">
+        <div class="container-left">
+             <div class="card">
+                <img src="img/狗头.jfif" alt="">
+                <h3> 狗头 </h3>
+                <a href="#">github 地址</a>
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>2</span>
+                    <span>1</span>
+                </div>
+             </div>
+        </div> 
+        <div class="container-right" style="background-color: transparent">
+            <div class="blog-detail">
+                <h3></h3>
+                <div class="date"></div>
+<!--                #content 这个id表示博客的正文部分-->
+                <div id="content"></div>
+            </div>
+        </div>
+    </div>
+<!--    通过 ajax 获取到博客详情内容-->
+<!--    // 没有引入 jquery CDN 就无法使用 ajax请求-->
+
+    <script src="js/app.js"></script>
+    <script>
+        // 当从博客列表页 点击 查看全文 跳转到 博客详情页 的时候，就会执行下面的请求
+        // 发送 ajax 请求到服务器
+        function getBlog() {
+            $.ajax({
+                type:'get',
+                url:'blog' + location.search,//location-全局变量， .search 拿到querystring 的内容
+                success: function(body){
+                    //body是得到的json对象
+                    let h3 = document.querySelector('.blog-detail>h3');
+                    h3.innerHTML = body.title;
+                    let dateDiv = document.querySelector('.blog-detail>.date');
+                    dateDiv.innerHTML = body.postTime;
+                    // let contentDiv = document.querySelector('#content');
+                    // contentDiv.innerHTML = body.content;
+
+                    // 此处使用 editor.md 来进行渲染
+                    //对象.方法（id,{markdown:正文内容}); 一定要是 id 不能是 class
+                    editormd.markdownToHTML('content',{ markdown:body.content});
+                }
+            });
+        }
+        getBlog();
+
+        getLoginStatus();
+
+        function getUserInfo(){
+            $.ajax({
+                type:'get',
+                url:'userInfo' + location.search,
+                success: function(body) {
+                    let h3 = document.querySelector('.container-left >.card>h3');
+                    h3.innerHTML = body.username;
+                }
+            });
+        }
+
+        getUserInfo();
+        /*往 <a href=blog_delete> 删除 </a>  这个标签的 delete 后面添加 /blogId=XX 来确定要从数据库中删除的博客是哪一个*/
+        function updateDeleteURL() {
+            let deleteBtn = document.querySelector("#delete-btn");
+            deleteBtn.href = 'blog_delete' + location.search;
+        }
+        updateDeleteURL();
+
+    </script>
+</body>
+</html>
