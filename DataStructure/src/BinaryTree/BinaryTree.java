@@ -1,5 +1,7 @@
 package BinaryTree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -145,4 +147,45 @@ public class BinaryTree {
         stack.pop();
         return false;
     }
+    public boolean isCompleteTree(TreeNode root){
+        if(root == null) return true;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while(!queue.isEmpty()){
+            TreeNode cur = queue.poll();
+            if(cur != null){
+                queue.add(cur.left);
+                queue.add(cur.right);
+            } else {
+                break;
+            }
+        }
+        while(!queue.isEmpty()){//当进入while循环，说明queue中不是全部为null
+            TreeNode cur = queue.peek();
+            if(cur != null){
+                queue.poll();
+            } else {
+                break;
+            }
+        }
+        return true;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
