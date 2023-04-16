@@ -34,5 +34,11 @@
             <version>2.13.4.1</version>
         </dependency>
     </dependencies>
+<!--    上传云服务器，打成war包-->
+    <packaging>war</packaging>
+    <build>
+        <finalName>java105_blog_system</finalName>
+    </build>
+
 
 </project>

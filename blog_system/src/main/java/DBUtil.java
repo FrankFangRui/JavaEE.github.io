@@ -23,9 +23,13 @@ public class DBUtil {
             synchronized (DBUtil.class){
                 if(dataSource == null) {//判定是否要创建对象
                     dataSource = new MysqlDataSource();
+                    //上传服务器时候，要改 mysql 的密码
+//                    ((MysqlDataSource) dataSource).setURL("jdbc:mysql://127.0.0.1:3306/java105_blog_system?characterEncoding=utf8&useSSL=false");
+//                    ((MysqlDataSource) dataSource).setUser("root");
+//                    ((MysqlDataSource) dataSource).setPassword("123123");
                     ((MysqlDataSource) dataSource).setURL("jdbc:mysql://127.0.0.1:3306/java105_blog_system?characterEncoding=utf8&useSSL=false");
                     ((MysqlDataSource) dataSource).setUser("root");
-                    ((MysqlDataSource) dataSource).setPassword("123123");
+                    ((MysqlDataSource) dataSource).setPassword("");
                 }
             }
         }

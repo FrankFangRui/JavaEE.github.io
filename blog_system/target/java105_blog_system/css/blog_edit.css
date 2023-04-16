@@ -1,0 +1,36 @@
+.blog-edit-container{
+    width:1000px;
+    height: calc(100% - 50px);
+    margin:0 auto;
+}
+.blog-edit-container .title{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#blog-title{
+    height:40px;
+    width:898px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left:5px;
+    outline:none;
+    border:none;
+    background-color: rgba(255,255,255,0.8);
+}
+#submit{
+    height: 40px;
+    width:100px;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    background-color:orange;
+}
+#submit:active{
+    background-color: grey;
+}
+#editor{
+    border-radius: 10px;
+    opacity:80%;
+}
