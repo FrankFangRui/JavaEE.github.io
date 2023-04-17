@@ -21,7 +21,8 @@ public class LoginServlet extends HttpServlet {
         String password = req.getParameter("password");
         if(username == null || username.equals("") || password == null || password.equals("")){
             //用户名密码为空，直接返回登录失败
-            resp.setContentType("text/html; charset=utf8");
+
+            resp.setContentType("text/html;charset=urf8");
             resp.getWriter().write("用户名或密码为空！登陆失败");
             return;
         }
@@ -31,7 +32,7 @@ public class LoginServlet extends HttpServlet {
         User user = userDao.selectByName(username);
         if (user == null || !user.getPassword().equals(password)) {
             // 用户名不存在，或者密码不相同，返回登陆失败
-            resp.setContentType("text/html,charset=utf8");
+            resp.setContentType("text/html;charset=utf8");
             resp.getWriter().write("用户名或密码错误！登陆失败");
             return;
         }
@@ -53,6 +54,7 @@ public class LoginServlet extends HttpServlet {
         if (session == null) {
             // 没有会话，说明当前是未登录状态
             resp.setStatus(403);
+            //resp.setContentType("text/html;charset=urf8");
             return;
         }
         // 这里的 user 对象是否存在，还是要判定的
@@ -62,6 +64,7 @@ public class LoginServlet extends HttpServlet {
         if (user == null) {
             //对话存在，但是user对象不存在（退出登录了），也认为是未登录状态
             resp.setStatus(403);
+            //resp.setContentType("text/html;charset=urf8");
             return;
         }
 
