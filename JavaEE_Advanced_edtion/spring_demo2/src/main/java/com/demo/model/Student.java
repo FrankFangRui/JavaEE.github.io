@@ -1,5 +1,7 @@
 package com.demo.model;
 
+import org.springframework.context.annotation.Bean;
+
 /**
  * @author 方锐
  * @since 2023/4/23 21:00
@@ -41,6 +43,7 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
+
 
 
 

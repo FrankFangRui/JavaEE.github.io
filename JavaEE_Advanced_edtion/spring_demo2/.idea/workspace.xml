@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51284486-2b47-4d9b-ad85-b4f3e449d6cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/User2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/componet/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/componet/StudentBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/componet/aController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/componet/StudentBeans2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/componet/UserComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/modules.xml" afterDir="false" />
@@ -45,6 +41,11 @@
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MyStackByQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MyStackByQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/MyBatis-xml模板.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/MyBatis-xml模板.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/SSM常用配置.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/SSM常用配置.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/spring配置文件 - 最终版.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/spring配置文件 - 最终版.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/添加 Spring 依赖.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/添加 Spring 依赖.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1/.idea/modules.xml" afterDir="false" />
@@ -65,9 +66,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/componet/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/componet/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/componet/StudentBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/componet/StudentBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/componet/aController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/componet/aController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/APP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring_config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/encodings.xml" afterDir="false" />
@@ -488,21 +499,24 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/GithubResposities/JavaEE.github.io/JavaEE_Advanced_edtion/spring_demo2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "6ab238fb84c88f5b3c997445fc3cb382"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GithubResposities/JavaEE.github.io/JavaEE_Advanced_edtion/spring_demo2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6ab238fb84c88f5b3c997445fc3cb382&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.componet" />
     </key>
   </component>
   <component name="RunManager">
@@ -534,6 +548,10 @@
       <workItem from="1682066958671" duration="365000" />
       <workItem from="1682126439624" duration="16108000" />
       <workItem from="1682230483867" duration="10837000" />
+      <workItem from="1682298123367" duration="6473000" />
+      <workItem from="1682337650820" duration="5525000" />
+      <workItem from="1682385053192" duration="6084000" />
+      <workItem from="1682417794990" duration="2627000" />
     </task>
     <servers />
   </component>
@@ -550,5 +568,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/demo/controller/StudentController.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
