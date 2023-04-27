@@ -1,13 +1,7 @@
-import com.demo.componet.ArticleController;
-import com.demo.componet.UserComponent;
-import com.demo.componet.aController;
-import com.demo.controller.StudentController;
-import com.demo.model.Student;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.xml.XmlBeanFactory;
+import com.demo.controller.UserAdviceController;
+import com.demo.controller.UserController;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.core.io.ClassPathResource;
 
 /**
  * @author 方锐
@@ -45,7 +39,12 @@ public class APP {
         //System.out.println(student);
 
         // 获取 Bean 对象，Spring对其进行赋值，然后就可以调用了
-        StudentController sc = context.getBean("studentController",StudentController.class);
-        sc.sayHi();
+//        StudentController sc = context.getBean("studentController",StudentController.class);
+//        sc.sayHi();
+        UserController uc = context.getBean("userController",UserController.class);
+        uc.getUser();
+
+        UserAdviceController ua = context.getBean("userAdviceController",UserAdviceController.class);
+        ua.getUser();
     }
 }

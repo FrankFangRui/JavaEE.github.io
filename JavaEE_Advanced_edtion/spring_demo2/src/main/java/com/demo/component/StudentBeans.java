@@ -1,4 +1,4 @@
-package com.demo.componet;
+package com.demo.component;
 
 import com.demo.model.Student;
 import org.springframework.context.annotation.Bean;

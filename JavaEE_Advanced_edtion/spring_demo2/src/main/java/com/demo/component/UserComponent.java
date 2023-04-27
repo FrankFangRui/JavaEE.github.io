@@ -1,4 +1,4 @@
-package com.demo.componet;
+package com.demo.component;
 
 /**
  * @author 方锐

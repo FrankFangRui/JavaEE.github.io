@@ -7,4 +7,7 @@
 <!--<bean id="user2" class="User"></bean>-->
 <!--       <bean id="user2" class="User2"></bean>-->
        <content:component-scan base-package="com.demo"></content:component-scan>
+
+<!--       <bean id="myComponent" class="com.demo.component.BeanLifeComponent"-->
+<!--             init-method="init"></bean>-->
 </beans>

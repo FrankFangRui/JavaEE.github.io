@@ -1,21 +1,25 @@
-package com.demo.componet;
+package com.demo.component;
 
 import com.demo.model.User;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 /**
- * @author 方锐
+ * @author 张三
  * @since 2023/4/26 19:33
  */
 @Component
 public class UserBeans {
 
+    //@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+    @Scope("prototype")
     @Bean
     public User user1 () {
         User user = new User();
         user.setId(1);
         user.setName("张三");
-        return null;
+        user.setPassword("123");
+        return user;
     }
 }
