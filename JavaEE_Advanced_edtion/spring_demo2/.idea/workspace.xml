@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51284486-2b47-4d9b-ad85-b4f3e449d6cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/App2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/App3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/AComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/BComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/BeanLifeComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/CComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/UserAdviceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/modules.xml" afterDir="false" />
@@ -73,27 +66,27 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/User2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/componet/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/componet/StudentBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/StudentBeans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/componet/StudentBeans2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/StudentBeans2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/componet/UserBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/UserBeans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/componet/UserComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/UserComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/componet/aController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/aController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/App3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/App3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/component/AComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/AComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/component/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/component/BComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/BComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/component/BeanLifeComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/BeanLifeComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/component/CComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/CComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/component/StudentBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/StudentBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/component/StudentBeans2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/StudentBeans2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/component/UserBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/UserBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/component/UserComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/UserComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/component/aController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/component/aController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/controller/UserAdviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/UserAdviceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring_config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/componet/ArticleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/componet/StudentBeans.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/componet/StudentBeans2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/componet/UserComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/componet/aController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/controller/StudentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring_config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/compiler.xml" afterDir="false" />
@@ -597,6 +590,7 @@
       <workItem from="1682385053192" duration="6084000" />
       <workItem from="1682417794990" duration="11721000" />
       <workItem from="1682555329534" duration="16530000" />
+      <workItem from="1682644112582" duration="2995000" />
     </task>
     <servers />
   </component>
