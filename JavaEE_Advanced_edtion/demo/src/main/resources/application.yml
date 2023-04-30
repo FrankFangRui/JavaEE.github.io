@@ -1,0 +1,40 @@
+#server:
+#  port: 6666
+
+
+
+
+
+# 自定义配置项
+mytest2: 张三
+mytest: 李四
+
+# 设置数据库连接
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/testdb?characterEncoding=utf8
+    username: root
+    password: 123123
+
+# 字符串
+myString: 你好，\n世界
+myString2: '你好，\n世界'
+myString3: ~
+
+# 自定义对象
+# student:
+#  id: 1
+#  name: 张三
+#  age: 18
+
+student: { id: 2,name: 张三 ,age: 18 }
+
+dbtypes: { name: [mysql,sqlserver,db2] }
+
+
+
+
+
+
