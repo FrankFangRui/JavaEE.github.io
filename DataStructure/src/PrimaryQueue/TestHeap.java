@@ -22,9 +22,11 @@ public class TestHeap {
     }
 
     // 初始化一个数组，将传入的数组赋值给 elem, usedSize 是数组的长度
+    // 复制这个传入的数组，并将数组扩容到原来数组长度的两倍
     public void initArray(int[] array) {
         elem = Arrays.copyOf(array,array.length);
         usedSize = elem.length;
+
     }
 
     //建堆: 大根堆
@@ -80,5 +82,50 @@ public class TestHeap {
         array[i] = array[j];
         array[j] = tmp;
 
+    }
+
+    public void offer(int x) {
+        if (isFull()) {
+            elem = Arrays.copyOf(elem,elem.length * 2);
+        }
+        this.elem[usedSize] = x;
+        usedSize++;
+        shiftUp(usedSize-1);
+    }
+
+    private void shiftUp(int child) {
+        // 通过子节点的下标，得到父节点的下标
+        int parent = ( child-1 ) / 2;
+        while(child > 0) {
+            if(elem[child] > elem[parent]) {
+                swap(elem,child,parent);
+                child = parent;
+                parent = (child-1)/2;
+            }else {
+                break;
+            }
+        }
+    }
+
+    public boolean isFull() {
+        return usedSize == elem.length;
+    }
+
+    // 出队
+    public int poll() {
+        if(isEmpty()) {
+            return -1;
+        }
+        int old = elem[0];
+        swap(elem,0,usedSize-1);
+        usedSize--;
+        // 开始从 0 下标向下调整
+        shiftDown(0,usedSize);
+        return old;
+
+    }
+
+    public boolean isEmpty() {
+        return usedSize == 0;
     }
 }

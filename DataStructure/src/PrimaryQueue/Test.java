@@ -1,5 +1,7 @@
 package PrimaryQueue;
 
+import java.util.PriorityQueue;
+
 /**
  * @author 方锐
  * @since 2023/4/29 21:23
@@ -11,6 +13,16 @@ public class Test {
         testHeap.initArray(array);
 
         testHeap.createHeap();
-        System.out.println("---");
+
+        testHeap.offer(80);
+
+        //System.out.println("---");
+
+        //testHeap.poll();
+
+        PriorityQueue<Integer> priorityQueue2 =new PriorityQueue<>();
+        PriorityQueue<Student> priorityQueue = new PriorityQueue<>();
+        priorityQueue.offer(null);
+        priorityQueue.offer(new Student());
     }
 }
