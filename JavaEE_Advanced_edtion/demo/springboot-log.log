@@ -1,0 +1,90 @@
+2023-05-02 20:08:30.097  INFO 52796 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_352 on Frank with PID 52796 (D:\GithubResposities\JavaEE.github.io\JavaEE_Advanced_edtion\demo\target\classes started by 方锐 in D:\GithubResposities\JavaEE.github.io\JavaEE_Advanced_edtion\demo)
+2023-05-02 20:08:30.098  INFO 52796 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "prod"
+2023-05-02 20:08:30.131  INFO 52796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-02 20:08:30.132  INFO 52796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-02 20:08:30.670  INFO 52796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2023-05-02 20:08:30.676  INFO 52796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-02 20:08:30.676  INFO 52796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-02 20:08:30.734  INFO 52796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-02 20:08:30.734  INFO 52796 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 602 ms
+2023-05-02 20:08:30.762  WARN 52796 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'student' defined in file [D:\GithubResposities\JavaEE.github.io\JavaEE_Advanced_edtion\demo\target\classes\com\example\demo\Student.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-05-02 20:08:30.763  INFO 52796 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-02 20:08:30.771  INFO 52796 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-02 20:08:30.785 ERROR 52796 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo.Student required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+Consider adding @ConstructorBinding to com.example.demo.Student if you intended to use constructor-based configuration property binding.
+
+2023-05-02 20:09:30.640  INFO 12308 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_352 on Frank with PID 12308 (D:\GithubResposities\JavaEE.github.io\JavaEE_Advanced_edtion\demo\target\classes started by 方锐 in D:\GithubResposities\JavaEE.github.io\JavaEE_Advanced_edtion\demo)
+2023-05-02 20:09:30.641  INFO 12308 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "prod"
+2023-05-02 20:09:30.671  INFO 12308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-02 20:09:30.671  INFO 12308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-02 20:09:31.201  INFO 12308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2023-05-02 20:09:31.207  INFO 12308 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-02 20:09:31.207  INFO 12308 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-02 20:09:31.268  INFO 12308 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-02 20:09:31.268  INFO 12308 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 597 ms
+2023-05-02 20:09:31.296  WARN 12308 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'student' defined in file [D:\GithubResposities\JavaEE.github.io\JavaEE_Advanced_edtion\demo\target\classes\com\example\demo\Student.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-05-02 20:09:31.298  INFO 12308 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-02 20:09:31.306  INFO 12308 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-02 20:09:31.322 ERROR 12308 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo.Student required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+Consider adding @ConstructorBinding to com.example.demo.Student if you intended to use constructor-based configuration property binding.
+
+2023-05-02 20:10:18.200  INFO 58692 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_352 on Frank with PID 58692 (D:\GithubResposities\JavaEE.github.io\JavaEE_Advanced_edtion\demo\target\classes started by 方锐 in D:\GithubResposities\JavaEE.github.io\JavaEE_Advanced_edtion\demo)
+2023-05-02 20:10:18.201  INFO 58692 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "prod"
+2023-05-02 20:10:18.232  INFO 58692 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-02 20:10:18.233  INFO 58692 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-02 20:10:18.777  INFO 58692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2023-05-02 20:10:18.783  INFO 58692 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-02 20:10:18.784  INFO 58692 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-02 20:10:18.841  INFO 58692 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-02 20:10:18.841  INFO 58692 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 608 ms
+2023-05-02 20:10:18.867  WARN 58692 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'student' defined in file [D:\GithubResposities\JavaEE.github.io\JavaEE_Advanced_edtion\demo\target\classes\com\example\demo\Student.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-05-02 20:10:18.869  INFO 58692 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-02 20:10:18.876  INFO 58692 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-02 20:10:18.891 ERROR 58692 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo.Student required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+Consider adding @ConstructorBinding to com.example.demo.Student if you intended to use constructor-based configuration property binding.
+

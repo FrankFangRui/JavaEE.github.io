@@ -1,2 +1,19 @@
 server:
-  port: 6666
+  port: 9999
+
+# 设置日志级别
+logging:
+  pattern:
+    # console: '[%d{yyyy-MM-dd HH:mm:ss} | %level | %M:%L] %msg%n'
+  file:
+    name: springboot-log.log
+#    path: D://logs
+  level:
+    com:
+      example:
+        demo:
+          controller:
+            ArticleController: error
+          service:
+            UserController: warn
+

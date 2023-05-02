@@ -34,7 +34,11 @@ public class TestHeap {
         // for 循环开始值为最后一个叶子节点的父节点
         for(int parent = (usedSize-1-1) / 2; parent >= 0 ; parent--) {
             // 从最后一个叶子节点的父节点开始循环，直到根节点
-            // 每次比较的都是三个节点
+            // 每次比较的都是三个节点 <----这句话是错误的
+            // 每次比较都是比较 parent 节点和 其所有子节点
+            // 为什么不是 比较它的两个 左右子节点就可以了呢？
+            // 因为 parent 节点可能比它的左右子节点的一个或者两个都小，那么就不止和子节点交换位置了，还要继续和子节点的子节点来比较
+            // 大小，来判断是不是还要进一步向下移动
             shiftDown(parent, usedSize);
         }
     }
@@ -94,6 +98,14 @@ public class TestHeap {
     }
 
     private void shiftUp(int child) {
+        // 当 child 不是复述，且比父节点大，就交换节点
+        while(child > 0 && elem[child] > elem[(child-1)/2]) {
+            swap(elem,child,(child-1)/2);
+            child = (child-1)/2;
+        }
+    }
+
+/*    private void shiftUp(int child) {
         // 通过子节点的下标，得到父节点的下标
         int parent = ( child-1 ) / 2;
         while(child > 0) {
@@ -105,7 +117,7 @@ public class TestHeap {
                 break;
             }
         }
-    }
+    }*/
 
     public boolean isFull() {
         return usedSize == elem.length;

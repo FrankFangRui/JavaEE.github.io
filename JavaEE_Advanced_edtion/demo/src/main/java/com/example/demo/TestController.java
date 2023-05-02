@@ -45,11 +45,12 @@ public class TestController {
 
     @PostConstruct
     public void postConstruct() {
-        System.out.println(datatypes);
+//        System.out.println(datatypes);
 //        System.out.println(student);
 //        System.out.println("myString: " + myString);
 //        System.out.println("myString2: " + myString2);
 //        System.out.println("myString3: " + myString3);
+
     }
 
     @RequestMapping("/hi")  // url 路由注册
