@@ -33,7 +33,8 @@ public class TestHeap {
         int child = 2 * parent + 1;
         // 当子节点仍然在 数组 的长度内
         while(child < len) {
-            if(child + 1 < usedSize && elem[child + 1] > elem[child]) {
+
+            if(child + 1 < len && elem[child + 1] > elem[child]) {
                 // 当右子节点在范围内且比左节点大，那就和右节点作比较，不然和左节点作比较
                 child++;
             }
