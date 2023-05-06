@@ -43,9 +43,25 @@ public class Sort {
         }
     }
 
-    public void swap(int[] array, int j, int m) {
-        int tmp2 = array[m];
-        array[m] = array[j];
-        array[j] = tmp2;
+    private static void shell(int[] array, int gap) {
+        int i,j,tmp;
+        for(i = gap; i < array.length; i++) {
+            tmp = array[i];
+            for(j = i - gap; j >= 0; j-=gap ) {
+                if(array[i] > tmp){
+                    array[j+gap] = array[j];
+                }else{
+                    break;
+                }
+            }
+            array[j+gap] = tmp;
+        }
+    }
+
+    public static void shellSort(int[] array) {
+        int[] drr = {5,2,1};
+        for (int i = 0 ;i < drr.length;i++) {
+
+        }
     }
 }
