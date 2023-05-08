@@ -2,18 +2,49 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.ssm_demo.mapper.UserMapper">
     <select id="getUserById" resultType="com.example.ssm_demo.entity.Userinfo">
-        select * from userinfo where id = ${userId}
+        select * from userinfo where id = #{userId}
     </select>
 
     <select id="getAll"  resultType="com.example.ssm_demo.entity.Userinfo" >  <!-- getAll -> 接口中的方法名 resultType -> 返回类型 -->
         select * from userinfo
     </select>
 
+    <select id="getIdByName" resultType="com.example.ssm_demo.entity.Userinfo">
+        select id from userinfo where username= #{username}
+    </select>
+
 <!--     除了select 标签，其他标签都只要id，因为其他标签都是返回受影响的行数，而不是数据-->
     <insert id="add">
         insert into userinfo(username,password,createtime,updatetime)
-        values(#{username},#{password},#{createtime})
+        values(#{username},#{password},#{createtime},#{updatetime} )
 --  字符串使用 $ 会报错，要使用#，大部分99%都是#
     </insert>
 
+    <insert id="addGetId" useGeneratedKeys="true" keyProperty="id">
+        insert into userinfo(username,password,createtime,updatetime)
+        values(#{username},#{password},#{createtime},#{updatetime} )
+    </insert>
+
+    <update id="upUserName">
+        update userinfo set username=#{username} where id=#{id}
+    </update>
+
+    <delete id="delById">
+        delete from userinfo where id = #{id}
+    </delete>
+
 </mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

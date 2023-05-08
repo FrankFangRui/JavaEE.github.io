@@ -79,10 +79,16 @@ public class Sort {
 
     public static void insertSort(int[] array) {
         int i,j,tmp;
-        for(int i = 1; i < array.length ; i++){
+        for(i = 1; i < array.length ; i++){
             tmp = array[i];
-            for(int)
-
+            for( j = i - 1; j >= 0 ; j--){
+                if(array[j] > tmp){
+                    array[j+1] = array[j];
+                } else {
+                    break;
+                }
+            }
+            array[j+1] = tmp;
         }
     }
 
@@ -108,7 +114,7 @@ public class Sort {
         }
     }
 
-    public static void shellSort(int[] array) {
+    public static void shellSort3(int[] array) {
         int gap = array.length / 2; //初始增量为数组长度的一半
         while (gap > 0) { //当增量大于0时，进行分组排序
             for (int i = gap; i < array.length; i++) { //对每个分组进行直接插入排序
@@ -131,7 +137,26 @@ public class Sort {
             gap /= 2; //缩小增量
         }
     }
-    public static void selectSort(int[] array) {
+    public static void shellSort(int[] array){
+        int gap = array.length/2;
+        while (gap > 0) {
+            for(int i = gap ; i < array.length ; i++){
+                int tmp = array[i];
+                int j;
+                for(j = i - gap ; j >= 0 ; j-= gap){
+                    if(array[j] < tmp){
+                        array[j+gap] = array[j];
+                    }else {
+                        break;
+                    }
+                }
+                array[j+gap] = tmp;
+            }
+            gap/=2;
+        }
+
+    }
+    public static void selectSort3(int[] array) {
         for (int i = 0; i < array.length; i++) {
             //每次将i下标的 值 当做是 最小值
             int minIndex = i;
@@ -143,9 +168,94 @@ public class Sort {
             swap(array,minIndex,i);
         }
     }
+
+    public static void selectSort(int[] array){
+        for(int i = 0 ; i < array.length ; i++){
+            int j;
+            int minIndex = i;
+            for(j = i + 1 ; j < array.length ; j++){
+                if(array[j] < array[minIndex]){
+                    minIndex = j;
+                }
+            }
+            swap(array,i,minIndex);
+        }
+    }
+
+    public static void selectSort2(int[] array) {
+        int left = 0;
+        int right = array.length - 1;
+        while(left < right) {
+            int minIndex = left;
+            int maxIndex = left;
+            // 一次记录两个下标
+            for (int i = left + 1; i <= right ; i++) {//从第二个开始比较
+                if(array[i] < array[minIndex]){
+                    minIndex = i;
+                }
+                if(array[i] > array[maxIndex]) {
+                    maxIndex = i;
+                }
+            }
+            swap(array,left,minIndex);
+            // 如果当 left 是 maxIndex 下标的时候，就会出错
+            if(left == maxIndex) {
+                maxIndex = minIndex;
+            }
+            swap(array,right,maxIndex);
+            left++;
+            right--;
+        }
+    }
     private static void swap(int[] array,int i, int j) {
         int temp = array[j];
         array[j] = array[i];
         array[i] = temp;
     }
+
+    public static void heapSort(int[] array) {
+        //创建大根堆
+        createBigHeap(array);
+        int end = array.length - 1;
+        // 创建了大根堆之后，从上到下按照降序，但是同层的顺序无法保证
+        while (end >= 0 ) { //
+            swap(array,0,end);// 把最大的移到最后一个
+            shiftDown(array,0,end);// 开始寻找第二大，将第二大的移动到堆顶
+            // 从尾巴开始排列，每排列好一个 end--,end下标往回开始逐渐降序
+            end--;
+        }
+    }
+
+    private static void createBigHeap(int[] array) {
+        for (int parent = (array.length-1-1/2); parent >= 0 ; parent--){
+            shiftDown(array,parent,array.length);
+        }
+    }
+    private static void shiftDown(int[] array, int parent, int len){
+        int child = 2 * parent + 1;
+        while(child < len){
+            if(child + 1 < len && array[child] < array[child+1]){
+                child++;
+            }
+            if(array[child] > array[parent]){
+                swap(array,child,parent);
+                parent = child;
+                child = 2 * parent + 1;
+            }else{
+                break;
+            }
+        }
+    }
+
+    public static void bubbleSort(int[] array) {
+        for(int i = 0 ; i < array.length-1; i++){ // 十个数据 九次for循环，十个数据九个gap
+            for(int j = 0 ; j < array.length-1-i ; j++){// 每走一次外层for循环，内层就可以少走一次
+                if(array[j] > array[j+1]){
+                    swap(array,j,j+1);
+                }
+            }
+        }
+    }
+
+
 }

@@ -22,6 +22,13 @@ public interface UserMapper {
     Userinfo getUserById(@Param("userId") Integer userId);
 
     /**
+     * 通过 id 来获取 用户名
+     * @param username
+     * @return
+     */
+    Userinfo getIdByName(@Param("username") String username);
+
+    /**
      * 查询全部
      * @return
      */
@@ -33,4 +40,29 @@ public interface UserMapper {
      * @return
      */
     int add(Userinfo userinfo);
+
+    /**
+     * 添加用户并返回用户 id
+     * @param userinfo
+     * @return
+     */
+    int addGetId(Userinfo userinfo);
+
+    /**
+     * 修改用户
+     * @param userinfo
+     * @return
+     */
+    int upUserName(Userinfo userinfo);
+
+    /**
+     * 根据用户 id 删除用户信息
+     * @param id
+     * @return
+     */
+    int delById(@Param("id") Integer id);
+
+
+
+
 }

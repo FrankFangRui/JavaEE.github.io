@@ -10,11 +10,15 @@ import java.util.Random;
 public class TestSort {
     public static void main(String[] args) {
         int[] array = new int[10_0000];
-            initArrayOrder(array); // 有序
-        //   initArrayNotOrder(array); // 无序
-        testInsertSort(array);
-        testShellSort(array);
-        testSelectSort(array);
+        //    initArrayOrder(array); // 正序
+         initArrayNotOrder(array); // 无序
+        //逆序
+        //initArrayInvertOrder(array);
+        //testInsertSort(array);
+        //testShellSort(array);
+        //testSelectSort(array);
+        //testHeapSort(array);
+        testBubbleSort(array);
     }
     public static void testSelectSort(int[] array) {
         array = Arrays.copyOf(array,array.length);
@@ -22,6 +26,20 @@ public class TestSort {
         Sort.selectSort(array);
         long endTime = System.currentTimeMillis();
         System.out.println("选择排序耗时： " + (endTime-startTime));
+    }
+    public static void testBubbleSort(int[] array) {
+        array = Arrays.copyOf(array,array.length);
+        long startTime = System.currentTimeMillis();
+        Sort.bubbleSort(array);
+        long endTime = System.currentTimeMillis();
+        System.out.println("冒泡排序耗时："+(endTime-startTime));
+    }
+    public static void testHeapSort(int[] array) {
+        array = Arrays.copyOf(array,array.length);
+        long startTime = System.currentTimeMillis();
+        Sort.heapSort(array);
+        long endTime = System.currentTimeMillis();
+        System.out.println("堆排序耗时： " + (endTime-startTime));
     }
     public static void testInsertSort(int[] array) {
         array = Arrays.copyOf(array,array.length);
@@ -40,7 +58,7 @@ public class TestSort {
     }
     public static void initArrayOrder(int[] array) {
         for (int i = 0; i < array.length; i++) {
-            array[i] = array.length-i;
+            array[i] = i;
         }
     }
 
@@ -48,6 +66,12 @@ public class TestSort {
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(1000_0000);
+        }
+    }
+
+    public static void initArrayInvertOrder(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            array[i] = array.length-i;
         }
     }
 }

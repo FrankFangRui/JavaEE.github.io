@@ -14,7 +14,7 @@ public class Userinfo {
     private String username;
     private String password;
     private String photo;
-    private LocalDateTime createTime;//JDK8的功能
-    private LocalDateTime updateTime;
+    private LocalDateTime createtime;//JDK8的功能
+    private LocalDateTime updatetime;
     private int state;
 }
