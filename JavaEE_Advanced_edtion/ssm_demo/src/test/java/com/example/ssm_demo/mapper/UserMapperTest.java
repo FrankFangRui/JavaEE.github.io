@@ -2,6 +2,7 @@ package com.example.ssm_demo.mapper;
 
 
 import com.example.ssm_demo.entity.Userinfo;
+import org.apache.catalina.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
+import java.util.Collection;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -45,7 +47,7 @@ class UserMapperTest {
         // 伪代码，构建对象并设置响应的值
         // userinfo 是由前端传递过来的
         Userinfo userinfo = new Userinfo();
-        userinfo.setUsername("王五");
+        //userinfo.setUsername("王五");
         userinfo.setPassword("123123");
         userinfo.setCreatetime(LocalDateTime.now());
         userinfo.setUpdatetime(LocalDateTime.now());
@@ -64,7 +66,7 @@ class UserMapperTest {
         // 构建测试数据
         Userinfo userinfo = new Userinfo();
         userinfo.setId(5);
-        userinfo.setUsername("十王");
+        //userinfo.setUsername("十王");
         int result = userMapper.upUserName(userinfo);
         System.out.println("修改:" + result);
         Assertions.assertEquals(1,result);// 表明 修改了 1 条 数据
@@ -82,5 +84,26 @@ class UserMapperTest {
     void getNameById() {
         Userinfo userinfo = userMapper.getIdByName("张三");
         System.out.println(userinfo.getId());
+    }
+
+    @Test
+    void getListByOrder() {
+        List<Userinfo> list = userMapper.getListByOrder("asc");
+        System.out.println(list);
+    }
+
+    @Test
+    void login() {
+        String username = "admin";
+        String password = "' or 1='1";
+        Userinfo userinfo = userMapper.login(username,password);
+        System.out.println("登录状态：" + (userinfo == null ? "失败" : "成功"));
+    }
+
+    @Test
+    void getListByName() {
+        String username = "m";
+        List<Userinfo> list = userMapper.getListByName(username);
+        System.out.println("list:" + list);
     }
 }

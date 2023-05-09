@@ -220,14 +220,17 @@ public class Sort {
         // 创建了大根堆之后，从上到下按照降序，但是同层的顺序无法保证
         while (end >= 0 ) { //
             swap(array,0,end);// 把最大的移到最后一个
+
+            end--;
+
             shiftDown(array,0,end);// 开始寻找第二大，将第二大的移动到堆顶
             // 从尾巴开始排列，每排列好一个 end--,end下标往回开始逐渐降序
-            end--;
+
         }
     }
 
     private static void createBigHeap(int[] array) {
-        for (int parent = (array.length-1-1/2); parent >= 0 ; parent--){
+        for (int parent = (array.length-1-1)/2; parent >= 0 ; parent--){
             shiftDown(array,parent,array.length);
         }
     }
@@ -247,7 +250,18 @@ public class Sort {
         }
     }
 
-    public static void bubbleSort(int[] array) {
+    public static void bubbleSort(int[] array){
+        for(int i = 0 ; i < array.length-1; i++){
+            for(int j = 0 ; j < array.length - 1 -i; j++){
+                if(array[j] > array[j+1]){
+                    swap(array,j,j+1);
+                }
+            }
+        }
+    }
+
+
+    public static void bubbleSort2(int[] array) {
         for(int i = 0 ; i < array.length-1; i++){ // 十个数据 九次for循环，十个数据九个gap
             for(int j = 0 ; j < array.length-1-i ; j++){// 每走一次外层for循环，内层就可以少走一次
                 if(array[j] > array[j+1]){
@@ -256,6 +270,63 @@ public class Sort {
             }
         }
     }
+
+    public static void heapSort2(int[] array){
+        createBigHeap(array);
+        int end = array.length - 1;
+        while(end >= 0) {
+            swap(array,0,end);
+
+            end--;
+
+            shiftDown2(array,0,end);
+
+
+
+        }
+    }
+
+    private static void createBigHeap2(int[] array) {
+        for(int parent = (array.length-1)/2; parent >= 0 ; parent--){
+            shiftDown2(array,parent,array.length);
+        }
+    }
+
+    // 把小的数往下移动
+    private static void shiftDown2(int[] array, int parent, int len) {
+        int child = 2 * parent + 1;
+        while(child < len){
+            if(child + 1 < len && array[child+1] > array[child]){
+                child++;
+            }
+            if(array[child] > array[parent]){
+                swap(array,child,parent);
+                parent = child;
+                child = 2 * parent + 1;
+            }
+        }
+    }
+    // 找到 pivot
+    private static int partition(int[] array,int start,int end){
+        return -1;
+    }
+
+    private static void quick(int[] array,int left,int right) {
+        // = 就够了，能判断left,right重合，为什么还要 > 呢？
+        // 当pivot，left重合的时候，即基准就是left，
+        // quick(array,left,pivot-1); -> quick(array,left,left-1); 通过 > 来限制错误
+        if(left >= right) return; // 当只有一个节点的时候，结束循环
+
+        int pivot = partition(array,left,right);
+        quick(array,left,pivot-1);
+        quick(array,pivot+1,right);
+    }
+
+    public static void quickSort(int[] array) {
+        quick(array,0,array.length-1);
+    }
+
+
 
 
 }

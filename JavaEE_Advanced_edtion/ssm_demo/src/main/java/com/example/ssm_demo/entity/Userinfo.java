@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @Data
 public class Userinfo {
     private int id;
-    private String username;
+    private String name;
     private String password;
     private String photo;
     private LocalDateTime createtime;//JDK8的功能

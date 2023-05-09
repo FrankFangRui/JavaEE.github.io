@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.ssm_demo.mapper.UserMapper">
+    <resultMap id="baseMap" type="com.example.ssm_demo.entity.Userinfo">
+        <id column="id" property="id"></id>
+        <id column="username" property="name"></id>
+        <id column="photo" property="photo"></id>
+        <id column="username" property="name"></id>
+        <id column="createtime" property="createtime"></id>
+        <id column="updatetime" property="updatetime"></id>
+        <id column="state" property="state"></id>
+    </resultMap>
+
     <select id="getUserById" resultType="com.example.ssm_demo.entity.Userinfo">
         select * from userinfo where id = #{userId}
     </select>
 
-    <select id="getAll"  resultType="com.example.ssm_demo.entity.Userinfo" >  <!-- getAll -> 接口中的方法名 resultType -> 返回类型 -->
-        select * from userinfo
+    <select id="getAll" resultType="com.example.ssm_demo.entity.Userinfo"  >  <!-- getAll resultMap="baseMap"-> 接口中的方法名 resultType -> 返回类型 -->
+        select id,username as name,password,photo,createtime,updatetime,state from userinfo
     </select>
 
     <select id="getIdByName" resultType="com.example.ssm_demo.entity.Userinfo">
@@ -33,6 +43,18 @@
         delete from userinfo where id = #{id}
     </delete>
 
+    <select id="getListByOrder" resultType="com.example.ssm_demo.entity.Userinfo">
+        select * from userinfo order by id ${order}
+    </select>
+
+    <select id="login" resultType="com.example.ssm_demo.entity.Userinfo">
+
+        select * from userinfo where username='${username}' and password='${password}'
+    </select>
+
+    <select id="getListByName" resultType="com.example.ssm_demo.entity.Userinfo">
+        select * from userinfo where username like concat('%',#{username},'%')
+    </select>
 </mapper>
 
 
