@@ -1,5 +1,6 @@
 package com.example.ssm_demo.mapper;
 
+import com.example.ssm_demo.entity.Articleinfo;
 import com.example.ssm_demo.entity.viewobject.ArticleinfoVO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @since 2023/5/9 20:51
  */
 @SpringBootTest
-class ArticleMapperTest {
+class ArcticleMapperTest {
 
     @Autowired
     private ArticleMapper articleMapper;

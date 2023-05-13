@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
-import java.util.Collection;
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -20,7 +20,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * @since 2023/5/7 16:43
  */
 @SpringBootTest // 1.表明当前单元测试是运行在 SpringBoot 环境当中
-@Transactional
 class UserMapperTest {
 
     // 2.注入测试对象
@@ -105,5 +104,53 @@ class UserMapperTest {
         String username = "m";
         List<Userinfo> list = userMapper.getListByName(username);
         System.out.println("list:" + list);
+    }
+
+    @Test
+    void add2() {
+        Userinfo userinfo = new Userinfo();
+        userinfo.setUsername("张三");
+        userinfo.setPhoto(null);
+        userinfo.setPassword("123");
+        int result = userMapper.add2(userinfo);
+        System.out.println("添加:" + result);
+    }
+
+    @Test
+    void add3() {
+        Userinfo userinfo = new Userinfo();
+        userinfo.setUsername("李四");
+        userinfo.setPhoto("picture.png");
+        userinfo.setPassword("123");
+        int result = userMapper.add3(userinfo);
+        System.out.println("添加:" + result);
+    }
+
+    @Test
+    void getListByParam() {
+        List<Userinfo> list = userMapper.getListByParam(null,null);
+        System.out.println(list);
+    }
+
+    @Test
+    void update2() {
+        Userinfo user = new Userinfo();
+        user.setId(6);
+        user.setUsername(null);
+        user.setPhoto("top.png");
+        user.setPassword("123");
+        int result = userMapper.update2(user);
+        System.out.println("修改：" + result);
+    }
+
+    @Test
+    void dels() {
+
+        List<Integer> ids = new ArrayList<>();
+        ids.add(4);
+        ids.add(5);
+        ids.add(6);
+        int result = userMapper.dels(ids);
+        System.out.println("删除：" + result);
     }
 }

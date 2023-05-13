@@ -308,7 +308,24 @@ public class Sort {
     }
     // 找到 pivot
     private static int partition(int[] array,int start,int end){
-        return -1;
+        int i = start; // 事先存储好 start 下标
+        int key = array[start]; // 存储好数组最左边的 key
+        while(start < end) {
+            // 不取等号会死循环
+            // 当碰到end碰到一个 key,start也碰到一个key(两个key位置不同）
+            // 然后就会交换这两个key，而start<end,一直相互交换，导致死循环
+            while ( start < end && array[end] >= key){
+                end--;
+            }
+            while ( start < end && array[start] <= key) {
+                start++;
+            }
+            swap(array,start,end);
+        }
+        // 当 start = end 的时候
+        // 将相交位置和最左边的key交换位置
+        swap(array,start,i);
+        return start;
     }
 
     private static void quick(int[] array,int left,int right) {
@@ -327,6 +344,28 @@ public class Sort {
     }
 
 
+
+    private static int partition2(int[] array,int start,int end){
+        int i = start; // 事先存储好 start 下标
+        int key = array[start]; // 存储好数组最左边的 key
+        while(start < end) {
+            // 不取等号会死循环
+            // 当碰到end碰到一个 key,start也碰到一个key(两个key位置不同）
+            // 然后就会交换这两个key，而start<end,一直相互交换，导致死循环
+            while ( start < end && array[end] > key){
+                end--;
+            }
+            if (start < end) array[start++] = array[end]; // 这里移动了 start
+            while ( start < end && array[start] < key) {
+                start++;
+            }
+            if (start < end) array[end--] = array[start]; // 这里移动了 end
+        }
+        // 当 start = end 的时候
+        // 将相交位置和最左边的key交换位置
+        array[start] = key;
+        return start;
+    }
 
 
 }

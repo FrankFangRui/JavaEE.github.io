@@ -2,28 +2,28 @@ package Sort;
 
 import java.util.Arrays;
 import java.util.Random;
-
 /**
  * @author 方锐
  * @since 2023/5/5 10:28
  */
 public class TestSort {
     public static void main(String[] args) {
-        //int[] array = new int[10_0000];]
-        int[] array = {6,5,4,3,2,1};
-        //    initArrayOrder(array); // 正序
-         //initArrayNotOrder(array); // 无序
+        int[] array = new int[10_0000];
+        //int[] array = {6,5,4,3,2,1};
+          // initArrayOrder(array); // 正序
+         initArrayNotOrder(array); // 无序
         //逆序
         //initArrayInvertOrder(array);
         //testInsertSort(array);
-        //testShellSort(array);
+        testShellSort(array);
         //testSelectSort(array);
-        //testHeapSort(array);
+        testHeapSort(array);
         //testBubbleSort(array);
-        Sort.heapSort2(array);
-        for(int i = 0 ; i < array.length; i ++){
-            System.out.println(array[i]);
-        }
+        testQuickSort(array);
+        //Sort.heapSort2(array);
+//        for(int i = 0 ; i < array.length; i ++){
+//            System.out.println(array[i]);
+//        }
     }
     public static void testSelectSort(int[] array) {
         array = Arrays.copyOf(array,array.length);
@@ -60,6 +60,13 @@ public class TestSort {
         Sort.shellSort(array);
         long endTime = System.currentTimeMillis();
         System.out.println("希尔排序耗时："+(endTime-startTime));
+    }
+    public static void testQuickSort(int[] array) {
+        array = Arrays.copyOf(array,array.length);
+        long startTime = System.currentTimeMillis();
+        Sort.quickSort(array);
+        long endTime = System.currentTimeMillis();
+        System.out.println("快速排序耗时："+(endTime-startTime));
     }
     public static void initArrayOrder(int[] array) {
         for (int i = 0; i < array.length; i++) {

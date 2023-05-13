@@ -3,9 +3,9 @@
 <mapper namespace="com.example.ssm_demo.mapper.UserMapper">
     <resultMap id="baseMap" type="com.example.ssm_demo.entity.Userinfo">
         <id column="id" property="id"></id>
-        <id column="username" property="name"></id>
+        <id column="username" property="username"></id>
         <id column="photo" property="photo"></id>
-        <id column="username" property="name"></id>
+        <id column="username" property="username"></id>
         <id column="createtime" property="createtime"></id>
         <id column="updatetime" property="updatetime"></id>
         <id column="state" property="state"></id>
@@ -55,6 +55,85 @@
     <select id="getListByName" resultType="com.example.ssm_demo.entity.Userinfo">
         select * from userinfo where username like concat('%',#{username},'%')
     </select>
+
+    <insert id="add2">
+         insert into userinfo(username,
+         <if test="photo!=null">
+             photo,
+         </if>
+        password)
+        values(#{username},
+        <if test="photo!=null">
+           #{photo},
+        </if>
+        #{password})
+    </insert>
+
+    <!--    suffixOverrides 末尾有 , 则去除，如果没有则不去除
+            在 “” 内写属性名不需要#，在if标签内写对象属性要加上 #-->
+    <insert id="add3">
+        insert into userinfo
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+
+            <if test="username!=null">
+                username,
+            </if>
+            <if test="password!=null">
+                password,
+            </if>
+            <if test="photo!=null">
+                photo
+            </if>
+        </trim>
+        values
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+
+            <if test="username!=null">
+                #{username},
+            </if>
+            <if test="password!=null">
+                #{password},
+            </if >
+            <if test="photo!=null">
+                #{photo},
+            </if>
+        </trim>
+    </insert>
+
+    <select id="getListByParam" resultType="com.example.ssm_demo.entity.Userinfo">
+        select * from userinfo
+        <where>
+            <if test="username!=null">
+                username=#{username}
+            </if>
+            <if test="password!=null">
+                and password=#{password}
+            </if>
+        </where>
+    </select>
+
+    <update id="update2">
+        update userinfo
+        <set>
+            <if test="username!=null">
+                username=#{username},
+            </if>
+            <if test="password!=null">
+                password=#{password},
+            </if>
+            <if test="photo!=null">
+                photo=#{photo}
+            </if>
+        </set>
+        where id=#{id}
+    </update>
+
+    <delete id="dels">
+        delete from userinfo where id in
+        <foreach collection="ids" open="(" close=")" item="id" separator=",">
+            #{id}
+        </foreach>
+    </delete>
 </mapper>
 
 
