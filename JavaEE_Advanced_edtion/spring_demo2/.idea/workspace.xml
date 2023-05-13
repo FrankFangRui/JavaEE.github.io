@@ -5,12 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51284486-2b47-4d9b-ad85-b4f3e449d6cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/spring_demo1_practical.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Bottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Contructer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Framework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Tires.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Contructer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/spring_demo2_practical.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/src/main/resources/spring_config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/DataStructure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/PrimaryQueue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/PrimaryQueue.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/PrimaryQueue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/out/production/DataStructure/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/PrimaryQueue.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/ArrayList/CardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/ArrayList/CardDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/ArrayList/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/ArrayList/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/ArrayList/TestCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/ArrayList/TestCard.java" afterDir="false" />
@@ -24,12 +56,24 @@
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/LinkedList/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/LinkedList/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/LinkedList/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/LinkedList/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/LinkedList/TestSingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/LinkedList/TestSingleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/PrimaryQueue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/PrimaryQueue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/src/TestHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PrimaryQueue/src/TestHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/PrimaryQueue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/PrimaryQueue.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/TestHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/TestHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/PrimaryQueue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/out/production/PrimaryQueue/PrimaryQueue/PrimaryQueue.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/practical1/AgeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/practical1/AgeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/practical1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/practical1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/practical1/TestHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/PriorityQueue/practical1/TestHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/Sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/Sort/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructure/src/Sort/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/Sort/TestSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/EmptyStackException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/EmptyStackException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MinStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MyQueue.java" afterDir="false" />
@@ -37,11 +81,38 @@
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MyStackByQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/MyStackByQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/src/StackAndQueue/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/JavaEE_Advanced_edtion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/JavaEE_Advanced_edtion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/MyBatis-xml模板.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/MyBatis-xml模板.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/SSM常用配置.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/SSM常用配置.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/spring配置文件 - 最终版.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/spring配置文件 - 最终版.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/添加 Spring 依赖.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_AE_Configuration file summary/添加 Spring 依赖.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/src/main/java/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/src/main/java/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/src/main/java/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/src/main/java/User2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/src/main/java/User2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/src/main/java/com/demo/component/ArticleBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/src/main/java/com/demo/component/ArticleBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/src/main/java/com/demo/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/src/main/java/com/demo/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/src/main/java/com/demo/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/src/main/java/com/demo/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/src/main/java/com/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/src/main/java/com/model/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/src/main/resources/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/src/main/resources/spring_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_practical1/target/classes/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_practical1/target/classes/spring_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/springboot-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/springboot-log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Datatypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Datatypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1/.idea/modules.xml" afterDir="false" />
@@ -94,6 +165,38 @@
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_mvc_demo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo1/Generate/de64e8aded4c481e8bbd2dec886dbbaa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_mvc_demo1/Generate/de64e8aded4c481e8bbd2dec886dbbaa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/java/com/example/spring_mvc_demo/controller/CalcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/java/com/example/spring_mvc_demo/controller/CalcController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/java/com/example/spring_mvc_demo/controller/RespController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/java/com/example/spring_mvc_demo/controller/RespController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/java/com/example/spring_mvc_demo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/java/com/example/spring_mvc_demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/java/com/example/spring_mvc_demo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/java/com/example/spring_mvc_demo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/resources/static/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/resources/static/calc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_mvc_demo1/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/src/main/java/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/src/main/java/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/src/main/java/com/demo/component/StudentBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/src/main/java/com/demo/component/StudentBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/src/main/java/com/demo/controller/AStudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/src/main/java/com/demo/controller/AStudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/src/main/java/com/demo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/src/main/java/com/demo/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/src/main/java/com/demo/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/src/main/java/com/demo/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/src/main/resources/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/src/main/resources/spring_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_practical2/target/classes/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_practical2/target/classes/spring_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/entity/Articleinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/entity/Articleinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/entity/Userinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/entity/Userinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/entity/viewobject/ArticleinfoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/entity/viewobject/ArticleinfoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/example/ssm_demo/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/main/resources/mybatis/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/resources/mybatis/ArticleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/main/resources/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/test/java/com/example/ssm_demo/mapper/ArticleMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/test/java/com/example/ssm_demo/mapper/ArticleMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm_demo/src/test/java/com/example/ssm_demo/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm_demo/src/test/java/com/example/ssm_demo/mapper/UserMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaEE_Primary_edition/IntroductionClass/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaEE_Primary_edition/IntroductionClass/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaEE_Primary_edition/IntroductionClass/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaEE_Primary_edition/IntroductionClass/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaEE_Primary_edition/IntroductionClass/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaEE_Primary_edition/IntroductionClass/.idea/encodings.xml" afterDir="false" />
@@ -591,6 +694,8 @@
       <workItem from="1682417794990" duration="11721000" />
       <workItem from="1682555329534" duration="16530000" />
       <workItem from="1682644112582" duration="2995000" />
+      <workItem from="1683946403416" duration="1750000" />
+      <workItem from="1683948700235" duration="645000" />
     </task>
     <servers />
   </component>

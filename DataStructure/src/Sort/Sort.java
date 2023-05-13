@@ -307,7 +307,7 @@ public class Sort {
         }
     }
     // 找到 pivot
-    private static int partition(int[] array,int start,int end){
+    private static int partition4(int[] array,int start,int end){
         int i = start; // 事先存储好 start 下标
         int key = array[start]; // 存储好数组最左边的 key
         while(start < end) {
@@ -343,6 +343,56 @@ public class Sort {
         quick(array,0,array.length-1);
     }
 
+    private static int partition(int[] array,int start, int end){
+        int prev = start;
+        int cur = start+1;
+        while(cur <= end){
+            // 当 cur 位置的元素大于基准值的时候，if语句中&&短路与将不会执行后面的++prev
+            // 即 cur 大于基准值时，只有 cur 移动， prev 不移动
+            if(array[cur] < array[start] && array[++prev]!=array[cur]){
+                // 走到这里说明 cur,prev之间至少间隔一个比基准大的元素，且cur现在位置的值比基准大
+                /*() 内，只有当 cur 小于 基准 的时候，才能 prev++，当碰到一个 比基准大的元素之后，
+                  prev 和 cur 之间的间隔元素数量就是数组中比基准大的元素数量（且只会再增大不会减小了）
+                */
+                // 只有当 cur 的值小于基准 且 prev 和 cur 不是相邻元素的时候，才能进入if
+
+                /*第一次碰到一个比基准小的元素的时候，不会进入if，之后碰到都会进入if(因为&&右边的一定会是 true)
+                  碰到的时候,先让 prev++ 使prev位于比基准大的哪些数，然后将cur位置（那个碰到的比基准小的数）
+                  和prev这个数交换,交换完毕之后，cur继续向前走，此时prev位置的数还是小于基准值
+                */
+
+                swap(array,cur,prev);
+            }
+            cur++;
+        }
+        // 当走完一遍数组之后，将prev的位置（小于基准的值）和基准进行交换
+        // 为什么走完数组之后，prev位置的值小于基准？
+        // 其实只有在 array[++prev]!=array[cur] 到 swap(array,cur,prev)这两个代码之间会出现 prev 位置是大于基准的情况，
+        // 一旦prev大于基准，就会和 cur 进行交换（只有当cur碰到小于基准的值的时候，才会让prev右移处于大于基准的数，然后交换）
+        // 交换完毕之后，prev立马又变成小于基准值了
+        swap(array,prev,start);
+        return start;
+    }
+
+
+//挖坑法
+    private static int partition5(int[] array,int start,int end){
+        int key = array[start];
+        while(start < end){
+            while(start < end && array[end] >= key){
+                end--;
+            }
+            array[start] = array[end];
+             while(start < end && array[start] <= key){
+                start++;
+            }
+            array[end] = array[start];
+        }
+        // 相遇位置放 key
+        array[start] = key;
+        return start;
+    }
+
 
 
     private static int partition2(int[] array,int start,int end){
@@ -367,5 +417,29 @@ public class Sort {
         return start;
     }
 
+
+    public static void quickSort2(int[] array,int left, int right){
+        if(left >= right){
+            return;
+        }
+        int pivot = partition3(array, left, right);
+        quickSort2(array,pivot+1,right);
+        quickSort2(array,left,pivot-1);
+    }
+    private static int partition3(int[] array, int start, int end){
+        int keyIndex = start;
+        int key = array[start];
+        while(start < end){
+            while(start < end && array[end] >= key){
+                end--;
+            }
+            while(start < end && array[start] <= key){
+                start++;
+            }
+            swap(array,start,end);
+        }
+        swap(array,keyIndex,start);
+        return start;// 返回 pivot 位置
+    }
 
 }

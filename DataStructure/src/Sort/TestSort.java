@@ -8,22 +8,23 @@ import java.util.Random;
  */
 public class TestSort {
     public static void main(String[] args) {
-        int[] array = new int[10_0000];
-        //int[] array = {6,5,4,3,2,1};
+        //int[] array = new int[10_0000];
+        int[] array = {1,2,3,3};
           // initArrayOrder(array); // 正序
-         initArrayNotOrder(array); // 无序
+         //initArrayNotOrder(array); // 无序
         //逆序
         //initArrayInvertOrder(array);
         //testInsertSort(array);
-        testShellSort(array);
+        //testShellSort(array);
         //testSelectSort(array);
-        testHeapSort(array);
+        //testHeapSort(array);
         //testBubbleSort(array);
-        testQuickSort(array);
+        //testQuickSort(array);
         //Sort.heapSort2(array);
-//        for(int i = 0 ; i < array.length; i ++){
-//            System.out.println(array[i]);
-//        }
+        Sort.quickSort(array);
+        for(int i = 0 ; i < array.length; i ++){
+            System.out.println(array[i]);
+        }
     }
     public static void testSelectSort(int[] array) {
         array = Arrays.copyOf(array,array.length);
