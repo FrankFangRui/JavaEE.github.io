@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
  * @author 李四
  * @since 2023/4/26 20:43
  */
-@Controller
+@Controller //Controller 控制用户的行为，表示要获取对象
 public class UserController {
     @Autowired
     private User user1;

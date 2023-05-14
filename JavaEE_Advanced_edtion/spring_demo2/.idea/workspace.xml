@@ -5,28 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51284486-2b47-4d9b-ad85-b4f3e449d6cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/spring_demo1_practical.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Bottom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Contructer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Framework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Tires.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Contructer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/spring_demo2_practical.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_demo2_practical/src/main/resources/spring_config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructure/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructure/.idea/modules.xml" afterDir="false" />
@@ -129,6 +107,22 @@
       <change beforePath="$PROJECT_DIR$/../spring_demo1/src/old/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1/src/old/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo1/src/old/Framework.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1/src/old/Framework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo1/src/old/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1/src/old/Tire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/spring_demo1_practical.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/spring_demo1_practical.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Bottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Bottom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Contructer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Contructer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Framework.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Framework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Tires.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/NewEdition/Tires.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Bottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Bottom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Contructer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Contructer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Framework.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Framework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Tires.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo1_practical/src/OldEdition/Tires.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
@@ -159,6 +153,17 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring_config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/spring_demo2_practical.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/spring_demo2_practical.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/src/main/java/com/example/demo/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/src/main/java/com/example/demo/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/src/main/java/com/example/demo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/src/main/java/com/example/demo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/src/main/resources/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/src/main/resources/spring_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_demo2_practical/target/classes/spring_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo2_practical/target/classes/spring_config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_demo3/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_demo3/.idea/encodings.xml" afterDir="false" />
@@ -696,6 +701,7 @@
       <workItem from="1682644112582" duration="2995000" />
       <workItem from="1683946403416" duration="1750000" />
       <workItem from="1683948700235" duration="645000" />
+      <workItem from="1684034259523" duration="3503000" />
     </task>
     <servers />
   </component>
