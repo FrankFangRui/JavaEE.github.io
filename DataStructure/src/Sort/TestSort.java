@@ -9,7 +9,7 @@ import java.util.Random;
 public class TestSort {
     public static void main(String[] args) {
         //int[] array = new int[10_0000];
-        int[] array = {1,2,3,3};
+        int[] array = {2,4,1,9};
           // initArrayOrder(array); // 正序
          //initArrayNotOrder(array); // 无序
         //逆序
@@ -21,10 +21,11 @@ public class TestSort {
         //testBubbleSort(array);
         //testQuickSort(array);
         //Sort.heapSort2(array);
-        Sort.quickSort(array);
-        for(int i = 0 ; i < array.length; i ++){
+        //Sort.quickSort(array);
+        Sort.test(array,0,array.length-1);
+        /*for(int i = 0 ; i < array.length; i ++){
             System.out.println(array[i]);
-        }
+        }*/
     }
     public static void testSelectSort(int[] array) {
         array = Arrays.copyOf(array,array.length);

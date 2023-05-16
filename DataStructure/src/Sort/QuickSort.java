@@ -43,6 +43,8 @@ public class QuickSort {
         array[b] = tmp;
     }
 
+    //
+
     // 挖坑法
     public static void QuickSortDigHole(int[] array, int start, int end){
         if(start >= end) return;

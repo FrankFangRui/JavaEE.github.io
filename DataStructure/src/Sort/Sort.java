@@ -374,6 +374,25 @@ public class Sort {
         return start;
     }
 
+    // 三数取中法
+
+    /**
+     *
+     * @param array
+     * @param left
+     * @param right
+     * @return
+     */
+    public static void test(int[] array,int left,int right){
+        System.out.println(midNumIndex(array,left,right));
+    }
+    private static int midNumIndex(int[] array, int left, int right) {
+        int mid = (left+right) / 2;
+        int max1 = array[left] > array[right] ? array[left] : array[right];
+        int max2 = array[mid] > max1 ? max1 : array[mid];
+        return max2;
+    }
+
 
 //挖坑法
     private static int partition5(int[] array,int start,int end){
