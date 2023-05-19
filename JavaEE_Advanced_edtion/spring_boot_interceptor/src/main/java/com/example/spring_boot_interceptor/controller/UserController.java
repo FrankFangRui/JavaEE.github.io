@@ -5,14 +5,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
 import java.util.Random;
 
 /**
  * @author 方锐
  * @since 2023/5/16 11:36
  */
-@RestController
 @RequestMapping("/user")
+@RestController
 public class UserController {
 
 //    @GetMapping
@@ -30,16 +31,19 @@ public class UserController {
     }
 
     @RequestMapping("/getuser")
-    public String getUser() {
-        System.out.println("执行了 get User");
-        return "get user";
+    public Object getUser() {
+        HashMap<String,Object> result = new HashMap<>();
+        result.put("code","-1");
+        result.put("msg","getUser"); // 错误码的描述信息
+        result.put("data", null);
+        return result;
     }
 
     @RequestMapping("/login")
     public String login() {
         Object obj = null;
         obj.hashCode();
-        System.out.println("执行了 get User ");
+        System.out.println("执行了 login ");
         return "get login";
     }
 

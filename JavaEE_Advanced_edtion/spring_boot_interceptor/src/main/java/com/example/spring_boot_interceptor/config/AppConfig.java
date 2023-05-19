@@ -18,7 +18,7 @@ public class AppConfig implements WebMvcConfigurer {
 //                .excludePathPatterns("/user/login")// 不拦截的URL地址
 //                .excludePathPatterns("/user/reg")
 //                .excludePathPatterns("/**/*.html");
-                // 如果没有排除 .html 文件，无法跳转到 login.html 那么就会一直重定向
+                 //如果没有排除 .html 文件，无法跳转到 login.html 那么就会一直重定向
     }
 
 //    @Override

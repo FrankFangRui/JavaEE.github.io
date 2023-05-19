@@ -26,4 +26,13 @@ public class MyExHandler {
         result.put("data", null);
         return result;
     }
+    @ExceptionHandler(Exception.class)
+    public HashMap<String,Object> exception(Exception e){
+        HashMap<String,Object> result = new HashMap<>();
+        result.put("code","-1");
+        result.put("msg","异常：" + e.getMessage()); // 错误码的描述信息
+        result.put("data", null);
+        return result;
+    }
+
 }
