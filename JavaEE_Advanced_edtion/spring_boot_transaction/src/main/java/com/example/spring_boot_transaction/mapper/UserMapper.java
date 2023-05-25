@@ -1,8 +1,7 @@
 package com.example.spring_boot_transaction.mapper;
 
-import com.example.spring_boot_transaction.entity.Userinfo;
+import com.example.spring_boot_transaction.entity.UserInfo;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
 
 /**
  * @author 方锐
@@ -11,5 +10,5 @@ import org.apache.ibatis.annotations.Param;
 @Mapper
 public interface UserMapper {
 
-    int add(Userinfo userinfo);
+    int add(UserInfo userinfo);
 }

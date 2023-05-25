@@ -7,7 +7,7 @@ import lombok.Data;
  * @since 2023/5/21 14:43
  */
 @Data
-public class Userinfo {
+public class UserInfo {
     private Integer id;
     private String username;
     private String password;
