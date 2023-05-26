@@ -1,5 +1,10 @@
 package com.example.mycnblog_ssm.config;
 
+import com.example.mycnblog_ssm.common.AjaxResult;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.SneakyThrows;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.server.ServerHttpRequest;
@@ -15,6 +20,9 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
  */
 @ControllerAdvice
 public class ResponseAdvice implements ResponseBodyAdvice {
+
+    @Autowired
+    ObjectMapper objectMapper;
 
     /**
      * 这是一个开关，如果返回值为 true，才会调用 beforeBodyWrite
@@ -40,8 +48,13 @@ public class ResponseAdvice implements ResponseBodyAdvice {
      * @param response
      * @return
      */
+    @SneakyThrows
     @Override
     public Object beforeBodyWrite(Object body, MethodParameter returnType, MediaType selectedContentType, Class selectedConverterType, ServerHttpRequest request, ServerHttpResponse response) {
-        return null;
+        if ( body instanceof AjaxResult) return body;
+        if ( body instanceof String) {
+            return objectMapper.writeValueAsString(AjaxResult.success(body));
+        }
+        return AjaxResult.success(body);
     }
 }
